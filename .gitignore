@@ -9,3 +9,6 @@
 *.tar.gz
 *.rar
 *.bak
+.flattened-pom.xml
+target
+eclipse-target
