@@ -1,4 +1,14 @@
 {
-  "java.jdt.ls.java.home":"$[IDE_HOME]/software/java",
-  "update.mode": "none"
+  "update.mode": "none",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  }
 }
